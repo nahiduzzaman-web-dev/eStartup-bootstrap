@@ -4,3 +4,37 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+
+/* Navigation Styles */
+.e-logo{
+    color: #71c55d;
+    font-size: 28px;
+    font-weight: 600;
+   
+}
+.startup{
+    color:  #505050;
+    font-size: 28px;
+    font-weight: 600;
+}
+.active-color{
+    color: #71c55d !important;
+    font-weight: 400;
+}
+.nonactive-color{
+    color: #505050 !important;
+    font-weight: 400;
+}
+.nonactive-color:hover{
+    color: #71c55d !important;
+}
+.drop-down-bg{
+    background-color: #71c55d ;
+}
+.drop-down{
+    color: #fff !important;
+}
+.drop-down:hover{
+    color: #71c55d ;
+    background-color: #fff;
+}
