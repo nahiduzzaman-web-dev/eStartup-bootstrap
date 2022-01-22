@@ -4,6 +4,14 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+a{
+    text-decoration: none;
+    color: #555;
+}
+ul{
+    list-style: none;
+    
+}
 
 /* Navigation Styles */
 .e-logo{
@@ -38,3 +46,35 @@ body{
     color: #71c55d ;
     background-color: #fff;
 }
+
+/* banner */
+.outline-btn{
+    position: relative;
+    z-index: 3;
+    background: transparent;
+    color: #71c55d;
+    font-size: 14px;
+    border-color: #71c55d;
+    border-style: solid;
+    border-width: 2px;
+    padding: 10px 40px;
+    text-transform: uppercase;
+    transition: all 0.2s linear;
+}
+
+button {
+    cursor: pointer;
+    outline: none;
+}
+.green-white {
+    font-weight: 700;
+    color:#71c55d;
+    border-color: #71c55d;
+    background: transparent;
+}
+.green-white:hover {
+    color: white;
+    background: #71c55d;
+    border-color: #71c55d;
+}  
+    
